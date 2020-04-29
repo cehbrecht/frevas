@@ -1,10 +1,11 @@
 name: frevas
 channels:
-#- conda-forge
+- conda-forge
 - defaults
 dependencies:
+- python=3.6
 - pip
-- pywps>=4.2
+- pywps=4.2
 - jinja2
 - click
 - psutil

@@ -1,0 +1,9 @@
+# conda env update -f environment.yml
+name: frevas
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - jupyterlab
+  - birdy
